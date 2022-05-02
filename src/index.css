@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Header{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.logo{
+  width: 25px;
+}
+.logo-text{
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Meme{
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin:15px;
+}
+input{
+  padding: 5px 20px;
+}
+.btn{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 10px;
+  border-radius: 5px;
+  transition: 1s;
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.btn:hover{
+  background: linear-gradient(90deg,#A626D3 1.18%, #672280 100%);
+}
+.meme-img{
+  box-sizing: border-box;
+  max-width: 100%;
+  border-radius: 10px;
+}
