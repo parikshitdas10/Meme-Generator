@@ -59,6 +59,41 @@ input{
 }
 .meme-img{
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
+}
+.img-container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.firstText{
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  padding: 0pc;
+  align-self: center;
+  font-weight: 900;
+  font-size: 37px;
+  color: rgba(255, 255, 0, 0.842);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  word-break: break-all;
+  padding: 0px 20px;
+  
+}
+.secondText{
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  align-self: center;
+  font-weight: 900;
+  font-size: 37px;
+  color: rgba(255, 255, 0, 0.842);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  word-break: break-all;
+  padding: 0px 20px;
 }
